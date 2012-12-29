@@ -1,0 +1,11 @@
+<link rel="Stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/excite-bike/jquery-ui.css">
+<?php
+$form->prepare();  // this is another new thing and necessary
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+echo $this->form()->openTag($form);
+echo $this->formCollection($form);
+echo $this->form()->closeTag($form);
+?>
